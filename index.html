@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAF Books — Design Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="brand">
+      <div class="brand-mark"><span>PAF</span></div>
+      <div class="brand-name">PAF Books <small>· Design Studio</small></div>
+    </div>
+    <div class="header-right">
+      <span class="header-pill">Design Guide v2.0</span>
+    </div>
+  </header>
+
+  <div class="app">
+
+    <!-- SIDEBAR -->
+    <nav class="sidebar" id="sidebar">
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Overview</span>
+        <button class="sidebar-btn active" data-panel="home">
+          <div class="sb-icon" style="background:#1B3A5C">🏠</div>
+          <div class="sb-text">
+            <span class="sb-name">All Platforms</span>
+            <span class="sb-sub">Quick overview</span>
+          </div>
+        </button>
+        <button class="sidebar-btn" data-panel="brief">
+          <div class="sb-icon" style="background:#3D6B55">📋</div>
+          <div class="sb-text">
+            <span class="sb-name">Design Brief</span>
+            <span class="sb-sub">27 questions</span>
+          </div>
+        </button>
+        <button class="sidebar-btn" data-panel="guidelines">
+          <div class="sb-icon" style="background:#B5800A">📐</div>
+          <div class="sb-text">
+            <span class="sb-name">Design Guidelines</span>
+            <span class="sb-sub">Professional standards</span>
+          </div>
+        </button>
+      </div>
+
+      <div class="sidebar-divider"></div>
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Social Media</span>
+        <button class="sidebar-btn" data-panel="instagram">
+          <div class="sb-icon" style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)">📸</div>
+          <div class="sb-text"><span class="sb-name">Instagram</span><span class="sb-sub">6 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="facebook">
+          <div class="sb-icon" style="background:#1877F2">f</div>
+          <div class="sb-text"><span class="sb-name">Facebook</span><span class="sb-sub">5 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="twitter">
+          <div class="sb-icon" style="background:#000;color:#fff;font-size:.8rem">𝕏</div>
+          <div class="sb-text"><span class="sb-name">Twitter / X</span><span class="sb-sub">4 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="linkedin">
+          <div class="sb-icon" style="background:#0A66C2">in</div>
+          <div class="sb-text"><span class="sb-name">LinkedIn</span><span class="sb-sub">5 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="youtube">
+          <div class="sb-icon" style="background:#FF0000">▶</div>
+          <div class="sb-text"><span class="sb-name">YouTube</span><span class="sb-sub">4 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="pinterest">
+          <div class="sb-icon" style="background:#E60023">P</div>
+          <div class="sb-text"><span class="sb-name">Pinterest</span><span class="sb-sub">3 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="snapchat">
+          <div class="sb-icon" style="background:#FFFC00;color:#000">👻</div>
+          <div class="sb-text"><span class="sb-name">Snapchat</span><span class="sb-sub">2 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="whatsapp">
+          <div class="sb-icon" style="background:#25D366">💬</div>
+          <div class="sb-text"><span class="sb-name">WhatsApp</span><span class="sb-sub">3 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="threads">
+          <div class="sb-icon" style="background:#000">@</div>
+          <div class="sb-text"><span class="sb-name">Threads</span><span class="sb-sub">2 formats</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="reddit">
+          <div class="sb-icon" style="background:#FF4500">R</div>
+          <div class="sb-text"><span class="sb-name">Reddit</span><span class="sb-sub">2 formats</span></div>
+        </button>
+      </div>
+
+      <div class="sidebar-divider"></div>
+
+      <div class="sidebar-section">
+        <span class="sidebar-label">Print & Digital</span>
+        <button class="sidebar-btn" data-panel="book">
+          <div class="sb-icon" style="background:#B5800A">📚</div>
+          <div class="sb-text"><span class="sb-name">Book Cover</span><span class="sb-sub">Front, Spine, Back</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="print">
+          <div class="sb-icon" style="background:#555">🖨</div>
+          <div class="sb-text"><span class="sb-name">Print Posters</span><span class="sb-sub">A4, A3, A2, A1</span></div>
+        </button>
+        <button class="sidebar-btn" data-panel="digital">
+          <div class="sb-icon" style="background:#1B3A5C">🖥</div>
+          <div class="sb-text"><span class="sb-name">Digital Banners</span><span class="sb-sub">Web, Email, Ads</span></div>
+        </button>
+      </div>
+
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="content" id="content">
+      <!-- Panels injected by data.js -->
+    </main>
+
+  </div>
+
+  <footer class="footer">
+    PAF Books · Design Studio &nbsp;—&nbsp; Design Guide v2.0 &nbsp;—&nbsp; Confidential · Internal Use
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
